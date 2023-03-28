@@ -26,4 +26,5 @@ jobs:
     - run: |
         npm install
         npm install pm2 -g
+        npm start
         pm2 start npm -- start
